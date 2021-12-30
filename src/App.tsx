@@ -2,6 +2,7 @@ import React from 'react';
 import Main from './Main';
 import Navigation from './Navigation';
 import Footer from './Footer';
+import './styles/App.css'
 
 function App() {
   return (
