@@ -6,11 +6,11 @@ import './styles/Navigation.css';
 function Navigation(){
     return(
         <div className="Navigation">
-            <div className="container">
-                <Link to="/"> home </Link>
-                <Link to="/about"> about </Link>
-                <Link to="/contact"> contact </Link>
-                <Link to="/blog"> blog </Link>
+            <div className="Link-Container">
+                <Link to="/" className="Home-Link"> home </Link>&nbsp;
+                <Link to="/about" className="About-Link"> about </Link>&nbsp;
+                <Link to="/contact" className="Contact-Link"> contact </Link>&nbsp;
+                <Link to="/blog" className="Blog-Link"> blog </Link>&nbsp;
             </div>
         </div>
     );

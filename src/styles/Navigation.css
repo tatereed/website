@@ -1,0 +1,25 @@
+.Navigation {
+    background-color: #202020;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+.Link-Container {
+    font-size: 3em;
+    text-align: center;
+}
+.Home-Link {
+    text-decoration: none;
+    color: red;
+}
+.About-Link {
+    text-decoration: none;
+    color: #0040a6;
+}
+.Contact-Link {
+    text-decoration: none;
+    color: #007527;
+}
+.Blog-Link {
+    text-decoration: none;
+    color: #cc9600;
+}
