@@ -1,11 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import './styles/Navigation.css';
+import './styles/Header.css';
 
-function Navigation(){
+function Header(){
     return(
-        <div className="Navigation">
+        <div className="Header">
+            <div className="Name-Container">
+                tatereeddotnet
+            </div>
             <div className="Link-Container">
                 <Link to="/" className="Home-Link"> home </Link>&nbsp;
                 <Link to="/about" className="About-Link"> about </Link>&nbsp;
@@ -15,4 +18,4 @@ function Navigation(){
         </div>
     );
 }
-export default Navigation;
+export default Header;
