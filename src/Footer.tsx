@@ -5,7 +5,9 @@ import './styles/Footer.css';
 function Footer(){
     return(
         <div className="Footer">
-            Copyright &copy; 2021 - Tate Reed
+            <div className="Text-Container">
+                Copyright &copy; 2021 - Tate Reed
+            </div>
         </div>
     );
 }
