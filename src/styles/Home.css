@@ -1,0 +1,19 @@
+.Home-Contents {
+    font-size: 1.3em;
+    text-align: center;
+}
+.Find-Me-Contents {
+    white-space: nowrap;
+}
+.Github-Link {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    padding-right: 1em;
+}
+.Reddit-Link {
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+    padding-left: 1em;
+}
