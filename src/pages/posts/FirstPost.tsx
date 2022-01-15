@@ -1,9 +1,9 @@
 import React from 'react';
-import "../../styles/FirstPost.css";
+import "../../styles/Posts.css";
 function FirstPost(){
     return(
         <div className="FirstPost">
-            <div className="FirstPost-Contents">
+            <div className="Post-Contents">
                 <h1 className="Header">
                     First Blog Post
                 </h1>

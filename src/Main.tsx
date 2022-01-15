@@ -6,6 +6,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Blog from './pages/Blog';
 import FirstPost from "./pages/posts/FirstPost";
+import Headphones from "./pages/posts/Headphones";
 
 function Main(){
     return(
@@ -15,6 +16,7 @@ function Main(){
             <Route path='/contact' element={<Contact />}></Route>
             <Route path='/blog' element={<Blog />}></Route>
             <Route path='/blog/FirstPost' element={<FirstPost />}></Route>
+            <Route path='/blog/Headphones' element={<Headphones />}></Route>
         </Routes>
     );
 }

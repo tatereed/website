@@ -14,6 +14,15 @@ function Blog(){
                     day/month/year
                 </p>
                 <hr />
+                
+                <h3>
+                    <Link to="/blog/Headphones" className="Headphones-Link">Headphones - 15/1/2022</Link>
+                </h3>
+                <p>
+                    A longer post about my newer headphone obsession.
+                </p>
+
+                <hr />
                 <h3>
                     <Link to="/blog/FirstPost" className="FirstPost-Link">First Post - 7/1/2022</Link>
                 </h3>

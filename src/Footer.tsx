@@ -6,7 +6,7 @@ function Footer(){
     return(
         <div className="Footer">
             <div className="Text-Container">
-                Copyright &copy; 2021 - Tate Reed
+                Copyright &copy; 2022 - Tate Reed
             </div>
         </div>
     );
