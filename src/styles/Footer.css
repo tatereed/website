@@ -4,3 +4,8 @@
     padding-top: 0.8em;
     margin-top: 2em;
 }
+.Privacy-Link {
+    text-decoration: none;
+    text-decoration: underline;
+    color: #000000;
+}

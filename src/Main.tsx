@@ -7,6 +7,7 @@ import Contact from './pages/Contact';
 import Blog from './pages/Blog';
 import FirstPost from "./pages/posts/FirstPost";
 import Headphones from "./pages/posts/Headphones";
+import Privacy from "./pages/Privacy";
 
 function Main(){
     return(
@@ -17,6 +18,7 @@ function Main(){
             <Route path='/blog' element={<Blog />}></Route>
             <Route path='/blog/FirstPost' element={<FirstPost />}></Route>
             <Route path='/blog/Headphones' element={<Headphones />}></Route>
+            <Route path='/privacy' element={<Privacy />}></Route>
         </Routes>
     );
 }
