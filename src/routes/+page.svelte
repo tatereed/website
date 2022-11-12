@@ -1,5 +1,5 @@
 <script>
-	
+	import Content from "$lib/home/Content.svelte";
 </script>
 
 <svelte:head>
@@ -7,10 +7,10 @@
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<div>
-tatereeddotnet
-</div>
+<main class="body">
+	<Content />
+</main>
 
 <style>
-	
+
 </style>
